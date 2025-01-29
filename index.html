@@ -41,10 +41,10 @@
             </td>
         </tr>
         <tr class="table-wrap">
-            <td>
-                <table style="width: 100%; padding:0 10px 0 10px;">
+            <td style="padding:0;">
+                <table style="width: 100%; padding:0;">
                     <tr>
-                        <td>
+                        <td style="padding:0;">
                             <span class="mouth-logo-line" style="display:block; background-color:#fff; height:2px; width:100%; margin:0 0 10px 0;"></span>
                         </td>
                     </tr>
@@ -149,13 +149,13 @@
                 </table>
                 <span style="display:block; background-color:#fff; height:1px; width:100%; margin:0;"></span>
             </td>
-        </tr>       
+        </tr>
         <tr>
             <td>
-                <table style="width: 100%; text-align: center; padding:20px 0;">
+                <table style="width: 100%; text-align: center; padding:20px 0 0 0;">
                     <tr>
                         <td style="width: 33%; text-align: center;">
-                            <table class="social-cell center-table">
+                            <table class="social-cell center-table" style="background-color: #363636; transition: background-color 0.3s ease, filter 0.3s ease; text-align: center; padding: 5px 8px 2px 8px; border-radius: 5px; margin: auto;">
                                 <tr>
                                     <td>
                                         <a href="https://www.facebook.com/powergame.gr/" style="text-decoration: none; display: block; width: 20px; height:auto;">
@@ -166,7 +166,7 @@
                             </table>
                         </td>
                         <td style="text-align: center;">
-                            <table class="social-cell center-table">
+                            <table class="social-cell center-table" style="background-color: #363636; transition: background-color 0.3s ease, filter 0.3s ease; text-align: center; padding: 5px 8px 2px 8px; border-radius: 5px; margin: auto;">
                                 <tr>
                                     <td>
                                         <a href="https://x.com/PowergameGr" style="text-decoration: none; display: block; width: 20px; height:auto;">
@@ -177,7 +177,7 @@
                             </table>
                         </td>
                         <td style="width: 33%; text-align: center;">
-                            <table class="social-cell center-table">
+                            <table class="social-cell center-table" style="background-color: #363636; transition: background-color 0.3s ease, filter 0.3s ease; text-align: center; padding: 5px 8px 2px 8px; border-radius: 5px; margin: auto;">
                                 <tr>
                                     <td>
                                         <a href="https://www.instagram.com/powergame.gr/" style="text-decoration: none; display: block; width: 20px; height:auto;">
@@ -185,27 +185,36 @@
                                         </a>
                                     </td>
                                 </tr>
+                                <style>        
+                                    .social-cell:hover {
+                                        background-color: #444;
+                                        filter: brightness(1.5);
+                                    }
+                                </style>
                             </table>
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
-        <style>
-            .social-cell {
-                background-color: #2b2b2b;
-                transition: background-color 0.3s ease, filter 0.3s ease;
-                text-align: center;
-                padding: 5px 8px 2px 8px;
-                border-radius: 5px;
-                margin: auto;
-            }
-        
-            .social-cell:hover {
-                background-color: #444;
-                filter: brightness(1.5);
-            }
-        </style>
+        <tr>
+            <td>
+                <table style="width:100%; text-align:center;">
+                    <tr>
+                        <td>
+                            <p class="email" style="color:#6d6d6d; font-family:Arial; font-size: 14px; font-weight:400; margin:5px 0 20px 0;">Email: info@powergame.gr</p>
+                        </td>
+                        <style>
+                            @media only screen and (max-width: 500px) {
+                                .email {
+                                    font-size: 12px !important;
+                                }
+                            }
+                        </style>
+                    </tr>
+                </table>
+            </td>
+        </tr>
         
           
     </table>
