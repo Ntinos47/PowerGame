@@ -52,17 +52,34 @@
                         <td style="padding:0;">
                             <table style="width:100%;">
                                 <tr>
-                                    <td style="text-align:right; padding: 0;">
+                                    <td class="wrap-logo-big" style="text-align:right; padding: 0; width: 60px;">
                                         <a href="https://www.powergame.gr/category/big-mouth/">
-                                            <img style="max-width:250px; width:100%;" src="img/big.png" alt="logo">
+                                            <img class="logo-big" style="max-width:250px; width:100%;" src="img/big.png" alt="logo">
                                         </a>
                                     </td>
-                                    <td style="text-align:left; padding: 0;">
+                                    <td class="wrap-logo-mouth" style="text-align:left; padding: 0; width: 40%;">
                                         <a href="https://www.powergame.gr/category/big-mouth/">
-                                            <img style="max-width:100px; width:100%;" src="img/mouth.gif" alt="logo">
+                                            <img class="logo-mouth" style="max-width:100px; width:100%;" src="img/mouth.gif" alt="logo">
                                         </a>
                                     </td>
                                 </tr>
+                                <style>
+                                    @media only screen and (max-width: 500px) {
+                                        .wrap-logo-big {
+                                            width: 70% !important;
+                                        }
+                                        .logo-big {
+                                            max-width: 200px !important;
+                                        }
+
+                                        .wrap-logo-mouth {
+                                            width: 30% !important;
+                                        }
+                                        .logo-mouth {
+                                            max-width: 60px !important;
+                                        }
+                                    }
+                                </style>
                             </table>
                         </td>
                     </tr>
